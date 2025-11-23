@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Jerline Harsha S - Information Technology Student & Aspiring Developer">
+    <title>Jerline Harsha S | Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-container">
+                <div class="nav-brand">Jerline</div>
+                <ul class="nav-menu">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#resume" class="nav-link">Resume</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a> </li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                    <li><a href="#contact" class="nav-link">Contact Me</a></li>
+                </ul>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background-glow"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-welcome">Welcome to my Portfolio</h2>
+                <div class="profile-photo-wrapper">
+                    <div class="profile-photo-container">
+                        <imgsrc"<assets>
+                        <img src="assets/jerline.jpg/harsha1.jpg" alt="profile-photo" class="profile-photo" id="profileimage"/>
+                        <div class="photo-upload-overlay">
+                            <label for="photo-upload" class="upload-label">
+                                <i class="fas fa-camera"></i>
+                                <span>Upload Photo</span>
+                            </label>
+                            <input type="file" id="photo-upload" accept="image/*" style="display: none;">
+                        </div>
+                    </div>
+                </div>
+                <h1 class="hero-name ">Jerline Harsha S</h1>
+                <p class="hero-subtitle">Information Technology Student & Aspiring Developer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-card">
+                <p>
+                    I am <span class="about-name">Jerline Harsha S</span>, currently pursuing B.Tech in Information Technology. I am passionate about exploring new technologies, building real-time projects, and gaining hands-on experience through internships. I love solving problems, learning continuously, and contributing to meaningful and impactful solutions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content" style="display: flex;flex-direction:column;align-items:center;gap:2rem;">
+                <a href="assets/resume.pdf/resume1.pdf" class="resume-download-btn" download
+                   style="display:inline-block;padding:0.75rem 1.5rem;background:linear-gradient(90deg,#8b5cf6,#c084fc);color:#fff;font-weight:600;font-size:1.1rem;border:none;border-radius:8px;cursor:pointer;box-shadow:0 3px 14px 0 rgba(139,92,246,0.22);transition:transform 0.16s;">
+                    Download Resume
+                </a>
+                <div class="resume-preview" style="width:100%;max-width:800px;">
+                    <iframe src="assets/resume.pdf/resume1.pdf" style="width:100%;min-height:500px;border:1px solid #d1c4e9;border-radius:10px;box-shadow:0 3px 14px rgba(139,92,246,0.12);" title="Resume PDF Preview"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="education-degree">B.Tech – Information Technology</h3>
+                    <p class="education-institution">Mahendra Engineering College, Namakkal</p>
+                    <p class="education-period">2023–2027</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3 class="education-degree">Higher Secondary (HSE)</h3>
+                    <p class="education-institution">St. Joseph's Matric Hr. Sec. School, Dindigul</p>
+                    <p class="education-period">2020–2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-dashboard">
+                <!-- Technical Skills -->
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Technical Skills
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fab fa-cuttlefish"></i>
+                                <span class="skill-name">C Programming</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="85">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <span class="progress-percent">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fab fa-python"></i>
+                                <span class="skill-name">Python</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="80">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <span class="progress-percent">80%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fab fa-html5"></i>
+                                <span class="skill-name">HTML</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="90">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <span class="progress-percent">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fab fa-css3-alt"></i>
+                                <span class="skill-name">CSS</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="85">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <span class="progress-percent">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fas fa-database"></i>
+                                <span class="skill-name">MongoDB</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="75">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <span class="progress-percent">75%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fab fa-java"></i>
+                                <span class="skill-name">Java (NPTEL)</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="80">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <span class="progress-percent">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-users"></i>
+                        Soft Skills
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fas fa-comments"></i>
+                                <span class="skill-name">Communication</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="90">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <span class="progress-percent">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fas fa-user-friends"></i>
+                                <span class="skill-name">Teamwork</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="88">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <span class="progress-percent">88%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fas fa-clock"></i>
+                                <span class="skill-name">Time Management</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="85">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <span class="progress-percent">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-vote-yea"></i>
+                    </div>
+                    <h3 class="project-title">Blockchain Voting System</h3>
+                    <p class="project-description">
+                        Paper presentation on blockchain-based voting system at Coimbatore Institute of Technology.
+                    </p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 class="project-title">Gyana Gamya</h3>
+                    <p class="project-description">
+                        Gamified Learning Platform for Rural Education for SIH Internal Hackathon.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="certificate-title">Smart India Hackathon 2025</h3>
+                    <p class="certificate-subtitle">Smart Education</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="certificate-title">Microsoft Generative AI</h3>
+                    <p class="certificate-subtitle">Completed assignments & modules</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Participation Section -->
+    <section id="participation" class="participation">
+        <div class="container">
+            <h2 class="section-title">Participation</h2>
+            <div class="participation-grid">
+                <div class="participation-card">
+                    <div class="participation-badge">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 class="participation-title">1st Place</h3>
+                    <p class="participation-description">Elocution competition (Tamil Nadu Ministry of Forest, MVM College)</p>
+                </div>
+                <div class="participation-card">
+                    <div class="participation-badge">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3 class="participation-title">Smart India Hackathon</h3>
+                    <p class="participation-description">Internal Round</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-header">
+                <h3 class="contact-name">Jerline Harsha S</h3>
+            </div>
+            <div class="contact-container">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h3 class="contact-label">Email</h3>
+                        <div class="contact-email-box">
+                            <a href="mailto:jerlineharsha035@gmail.com" class="contact-link email-link">jerlineharsha035@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h3 class="contact-label">Phone</h3>
+                        <a href="tel:+919597133238" class="contact-link">+91 9597133238</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h3 class="contact-label">LinkedIn</h3>
+                        <a href="https://linkedin.com/in/jerline-harsha-s" target="_blank" rel="noopener noreferrer" class="contact-link">jerline-harsha-s</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h3 class="contact-label">GitHub</h3>
+                        <a href="https://github.com/jerline-harsha-s" target="_blank" rel="noopener noreferrer" class="contact-link">jerline-harsha-s</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+<section class="contact-form-section">
+    <div class="container">
+        <h2 class="section-title">Send Me a Message</h2>
+        <form class="contact-form" id="contactMessageForm" autocomplete="off" style="max-width: 500px; margin: 0 auto;">
+            <div class="form-group" style="margin-bottom: 1rem;">
+                <label for="userName" style="display:block; font-weight:500; margin-bottom:0.5rem;">Your Name</label>
+                <input type="text" id="userName" name="userName" placeholder="Enter your name" required style="width:100%;padding:0.75rem;border-radius:8px;border:1px solid #d1c4e9;font-size:1rem;">
+            </div>
+            <div class="form-group" style="margin-bottom: 1rem;">
+                <label for="userEmail" style="display:block; font-weight:500; margin-bottom:0.5rem;">Your Email</label>
+                <input type="email" id="userEmail" name="userEmail" placeholder="Enter your email" required style="width:100%;padding:0.75rem;border-radius:8px;border:1px solid #d1c4e9;font-size:1rem;">
+            </div>
+            <div class="form-group" style="margin-bottom: 1rem;">
+                <label for="userMessage" style="display:block; font-weight:500; margin-bottom:0.5rem;">Message</label>
+                <textarea id="userMessage" name="userMessage" rows="5" placeholder="Type your message" required style="width:100%;padding:0.75rem;border-radius:8px;border:1px solid #d1c4e9;font-size:1rem;resize:vertical;"></textarea>
+            </div>
+            <button type="submit" class="contact-btn" style="width:100%;padding:0.75rem 0;background:linear-gradient(90deg,#8b5cf6,#c084fc);color:#fff;font-weight:600;font-size:1.1rem;border:none;border-radius:8px;cursor:pointer;box-shadow:0 3px 14px 0 rgba(139,92,246,0.22);transition:transform 0.16s;">
+                Send Message
+            </button>
+            <div id="formSuccessMsg" style="display:none;margin-top:1rem;color:#16a34a;text-align:center;font-weight:600;">Thank you for reaching out!</div>
+        </form>
+    </div>
+    <style>
+        @media (max-width: 600px) {
+            .contact-form-section .container {
+                padding: 0 10px;
+            }
+            .contact-form {
+                padding: 0;
+            }
+        }
+    </style>
+    <script>
+        // Simple client-side handler for demonstration
+        document.addEventListener('DOMContentLoaded', function() {
+            var form = document.getElementById('contactMessageForm');
+            var msg = document.getElementById('formSuccessMsg');
+            if(form){
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    msg.style.display = 'block';
+                    form.reset();
+                    setTimeout(function(){
+                        msg.style.display = 'none';
+                    }, 4000);
+                });
+            }
+        });
+    </script>
+</section>
+<footer class="footer">
+    <p>&copy; 2025 Jerline Harsha S. All rights reserved.</p>
+</footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var form = document.getElementById('contactMessageForm');
+        if(form){
+            form.addEventListener('submit', function(e) {
+                // Remove copyright element before showing the message
+                var copyright = document.querySelector('footer.footer');
+                if (copyright) {
+                    copyright.parentNode.removeChild(copyright);
+                }
+            }, { once: true });
+        }
+    });
+</script>
+<script>
+
+// Handle profile photo upload and preview
+document.addEventListener('DOMContentLoaded', function() {
+    var photoInput = document.getElementById('photo-upload');
+    var profileImg = document.getElementById('profileimage');
+
+    if(photoInput && profileImg){
+        photoInput.addEventListener('change', function(e){
+            if(photoInput.files && photoInput.files[0]){
+                var reader = new FileReader();
+                reader.onload = function(event) {
+                    profileImg.src = event.target.result;
+                };
+                reader.readAsDataURL(photoInput.files[0]);
+            }
+        });
+    }
+});
+</script>
